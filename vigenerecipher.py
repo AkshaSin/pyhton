@@ -9,5 +9,7 @@ for i in range(len(message)):
     encode_test += key[i]
     decoded += chr((((words(message[i])-words(key[i])) % 26))+65)
 print(message)
+
 print(encode_test)
+
 print(decoded)
